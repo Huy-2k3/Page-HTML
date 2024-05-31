@@ -1,0 +1,123 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+    background-image: url(imgBackgroundLogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    background: rgba(172, 53, 246, 0.5); /* Màu nền mờ mờ */
+    border-radius: 20px; /* Độ cong viền */
+    backdrop-filter: blur(10px); /* Hiệu ứng mờ */
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+    margin: 0 auto;
+}
+
+.submit:hover{
+    left: 0;
+    right: auto;
+    width: 60%;
+    background: rgb(136, 228, 191);
+    color: rgb(10, 88, 48);
+    font-weight: bolder;
+}
+.forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px; /* Khoảng cách giữa các biểu tượng */
+}
+
+.social-icons img {
+    width: 50px; /* Kích thước của biểu tượng */
+    height: auto;
+    filter: drop-shadow(1px 1px 20px rgb(41, 118, 181));
+}
